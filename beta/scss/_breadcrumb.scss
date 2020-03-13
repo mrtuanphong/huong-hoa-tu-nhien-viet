@@ -3,9 +3,10 @@
 
 .home_banner_area {
     background: url(../img/banner/banner-bg.jpg) no-repeat center bottom;
+    background-size: cover;
     position: relative;
     z-index: 1;
-    min-height: 900px;
+    //min-height: 800px;
     .overlay {
         background: rgba(0, 0, 0, 0.33);
         position: absolute;
@@ -19,7 +20,7 @@
     .banner_inner {
         position: relative;
         width: 100%;
-        min-height: 900px;
+        min-height: calc(100vh - 120px);
         .banner_content {
             color: $dip;
             padding-top: 110px;

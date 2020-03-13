@@ -414,9 +414,9 @@ a {
 ============================================================================================ */
 .home_banner_area {
   background: url(../img/banner/banner-bg.jpg) no-repeat center bottom;
+  background-size: cover;
   position: relative;
-  z-index: 1;
-  min-height: 900px; }
+  z-index: 1; }
   .home_banner_area .overlay {
     background: rgba(0, 0, 0, 0.33);
     position: absolute;
@@ -429,7 +429,7 @@ a {
   .home_banner_area .banner_inner {
     position: relative;
     width: 100%;
-    min-height: 900px; }
+    min-height: calc(100vh - 120px); }
     .home_banner_area .banner_inner .banner_content {
       color: #222222;
       padding-top: 110px;
@@ -4364,5 +4364,3 @@ h6 {
     margin-right: 0px; }
 
 /*---------------------------------------------------- */
-
-/*# sourceMappingURL=style.css.map */
