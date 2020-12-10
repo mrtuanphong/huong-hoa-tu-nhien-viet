@@ -1,0 +1,27 @@
+header {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: antiquewhite;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  float: left;
+  margin-left: 35px;
+}
+
+.nav-brand a,
+.nav-item a {
+  text-decoration: none;
+}
+
+.nav-item a:hover {
+  text-decoration: underline;
+}
