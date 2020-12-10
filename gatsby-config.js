@@ -7,13 +7,13 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    name: `Life of Phong`,
+    name: `Huong Hoa Tu Nhien Viet`,
     author: `Phong Do`,
-    title: `Welcome to Phong Do's website`,
-    description: `Blazing fast modern site generator for React`,
-    keywords: `hanoi, vietnam, gatsby`,
-    url: "https://www.doe.com", // No trailing slash allowed!
-    image: "/images/snape.jpg", // Path to your image you placed in the 'static' folder
+    title: `Welcome to Huong Hoa Tu Nhien Viet's website`,
+    description: `Chuyên cung cấp các sản phẩm đồ uống tự nhiên.`,
+    keywords: `trà hoa, hương hoa, tự nhiên, làm đẹp, giảm cân`,
+    url: "https://huonghoatunhienviet.com", // No trailing slash allowed!
+    image: "/images/sharing.jpg", // Path to your image you placed in the 'static' folder
   },
   pathPrefix: `/blog`,
   plugins: [
