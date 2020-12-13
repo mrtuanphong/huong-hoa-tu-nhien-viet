@@ -17,6 +17,7 @@
     "build-storybook": "build-storybook --no-dll"
   },
   "dependencies": {
+    "@ahaui/css": "^2.0.1",
     "gatsby": "^2.19.7",
     "gatsby-plugin-react-helmet": "^3.3.14",
     "gatsby-plugin-sass": "^2.5.1",
@@ -27,6 +28,8 @@
     "tabletop": "^1.6.3"
   },
   "devDependencies": {
+    "@ahaui/react": "2.0.0",
+    "@ahaui/css": "",
     "@babel/core": "^7.12.3",
     "@storybook/addon-actions": "^6.0.28",
     "@storybook/addon-essentials": "^6.0.28",
