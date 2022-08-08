@@ -8,3 +8,8 @@ Dev:
 
 Storybook:
 > yarn run storybook
+
+===========================
+
+Deploy:
+> yarn deploy
