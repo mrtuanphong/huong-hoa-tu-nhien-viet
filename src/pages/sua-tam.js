@@ -7,7 +7,7 @@ import { Button } from '@ahaui/react';
 
 export default ({ data }) => {
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div style={{width: "100%" ,height: "100vh"}}>
       <Helmet>
         <meta charSet="utf-8" />
         <title>{data.site.siteMetadata.title}</title>
@@ -19,28 +19,21 @@ export default ({ data }) => {
         <meta property="og:description" content={data.site.siteMetadata.description} />
         <meta property="og:image" content={data.site.siteMetadata.url + data.site.siteMetadata.image} />
       </Helmet>
-      <div className="max-w-3xl mx-auto p-4">
-        <h1 className="text-3xl mb-5">
-          {data.site.siteMetadata.name}
-        </h1>
-        <div>
-          <a 
-            href="https://shopee.vn/huonghoamart" 
-            title="Hương Hoa Tự Nhiên Việt trên Shopee"
-            target="_blank"
-            className="inline-grid grid-cols-3 gap-x-4">
-            Gian hàng trên Shopee
-          </a>
-          &nbsp;|&nbsp;          
-          <a 
-            href="https://www.lazada.vn/shop/huong-hoa-mart/" 
-            title="Hương Hoa Tự Nhiên Việt trên Lazada"
-            target="_blank"
-            className="inline-grid grid-cols-3 gap-x-4">
-            Gian hàng trên Lazada
-          </a>
-        </div>
-      </div>
+      <style>{"\
+        html, body {\
+          overflow: hidden;\
+        }\
+        .sua-tam-iframe {\
+          width: 100%;\
+          height: 100%;\
+          border: 0;\
+        }\
+      "}</style>
+      <iframe 
+        className="sua-tam-iframe" 
+        src="https://ldp.page/62f0cf32457e1a0020c1e118"
+        frameborder="0"
+      ></iframe>
     </div>
   )
 }
